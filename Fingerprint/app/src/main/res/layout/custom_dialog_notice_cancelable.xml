@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:elevation="30dp"
+    android:background="@color/colorDialogBackground"
+    android:paddingTop="16dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingBottom="24dp"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content">
+
+    <kz.yergalizhakhan.fingerprint.CustomWidgets.CustomTextView
+        android:id="@+id/contentTextViewDNC"
+        android:textColor="@color/colorTextGrayHint"
+        android:text="Are you sure to delete this row?"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="right"
+        android:layout_marginTop="30dp"
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <kz.yergalizhakhan.fingerprint.CustomWidgets.CustomButton
+            android:id="@+id/cancelButton"
+            android:background="@android:color/transparent"
+            android:text="Cancel"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:letterSpacing="0.1"
+            android:textColor="@color/colorTextGrayHint"
+            android:paddingLeft="8dp"
+            android:paddingTop="11dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <kz.yergalizhakhan.fingerprint.CustomWidgets.CustomButton
+            android:id="@+id/deleteButton"
+            android:background="@android:color/transparent"
+            android:text="Delete"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:letterSpacing="0.1"
+            android:textColor="@color/colorMainPrimary"
+            android:paddingLeft="8dp"
+            android:paddingTop="11dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>

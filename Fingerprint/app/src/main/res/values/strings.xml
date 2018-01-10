@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PasswordSaver</string>
+    <string name="hint">Please, place your fingertip to the finger scanner</string>
+</resources>
